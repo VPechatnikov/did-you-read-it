@@ -1,10 +1,7 @@
 # Ignore Python compiled files
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *.class
-
-# Ignore virtual environment directory
-quiz/
 
 # Ignore Python environment files
 .Python
@@ -20,6 +17,8 @@ pip-delete-this-directory.txt
 *.swo
 
 # Ignore Python packaging files
+backend/build/
+backend/dist/
 build/
 dist/
 *.egg-info/
@@ -39,6 +38,8 @@ dist/
 *.pytest_cache
 
 # Ignore React build output
+frontend/build/
+frontend/node_modules/
 /node_modules
 /build
 
