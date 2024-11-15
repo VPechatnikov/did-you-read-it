@@ -1,25 +1,81 @@
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
-*.exe
-*.exe~
-*.dll
-*.so
-*.dylib
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*.class
 
-# Test binary, built with `go test -c`
-*.test
+# Ignore virtual environment directory
+quiz/
 
-# Output of the go coverage tool, specifically when used with LiteIDE
+# Ignore Python environment files
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore common Python IDE/editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Ignore Python packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+
+# Ignore logs and temporary files
+*.log
 *.out
+*.tmp
+*.bak
+*.old
+*.orig
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+# Ignore Python cache files
+*.cache
+*.pytest_cache
 
-# Go workspace file
-go.work
-go.work.sum
+# Ignore React build output
+/node_modules
+/build
 
-# env file
+# Ignore ESLint cache
+.eslintcache
+
+# Ignore React environment files
 .env
+.env.local
+.env.*.local
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore coverage reports
+coverage/
+*.cover
+*.coverage
+*.cov
+*.gcda
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Ignore test output
+htmlcov/
+.tox/
+.nox/
+
+# Ignore coverage and profiling files
+*.coverage
+*.prof
+*.profraw
+
+# Ignore Yarn and npm debug files
+yarn-error.log
+npm-debug.log*
+
+# Ignore temporary files
+*~
